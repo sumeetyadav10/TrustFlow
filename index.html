@@ -999,6 +999,7 @@
               />
             </a>
             <p style="margin: 0; font-family: 'Exo 2', sans-serif; font-size: 1.5rem; color: #ffffff;">TrustFlow</p>
+            
             </div>
             <style data-emotion="css mt0dvk">
               .css-mt0dvk {
@@ -1313,39 +1314,11 @@
                   }
                 }
               </style>
-              <svg
-                viewBox="0 0 40 40"
-                focusable="false"
-                class="chakra-icon chakra-button css-yckad6"
-              >
-                <rect
-                  fill="currentColor"
-                  height="2"
-                  rx="1"
-                  width="24"
-                  x="8"
-                  y="25"
-                ></rect>
-                <rect
-                  fill="currentColor"
-                  height="2"
-                  rx="1"
-                  width="24"
-                  x="8"
-                  y="19"
-                ></rect>
-                <rect
-                  fill="currentColor"
-                  height="2"
-                  rx="1"
-                  width="24"
-                  x="8"
-                  y="13"
-                ></rect>
-              </svg>
+              
             </div>
           </div>
         </nav>
+        
         <style data-emotion="css imdm6l">
           .css-imdm6l {
             -webkit-flex: 1;
@@ -1521,17 +1494,32 @@
                       }
                     </style>
                     <div>
-                      <p
-                        style="
-                          font-size: 9rem;
-                          font-weight: bold;
-                          color: #c6fed2;
-                          font-family: "Gill Sans", sans-serif;
-                          text-shadow: 2px 2px 4px #0fd93ae9;
-                        "
-                      >
-                        TrustFlow
-                      </p>
+                      <style>
+  .trustflow-text {
+    font-size: 4rem; /* Default size for small screens */
+    font-weight: bold;
+    color: #c6fed2;
+    font-family: 'Gill Sans', sans-serif;
+    text-shadow: 2px 2px 4px #c6fed2;
+    text-align: center;
+  }
+
+  /* Adjust font size for larger screens */
+  @media (min-width: 768px) {
+    .trustflow-text {
+      font-size: 9rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .trustflow-text {
+      font-size: 9rem;
+    }
+  }
+</style>
+
+<p class="trustflow-text">TrustFlow</p>
+
                     </div>
 
                     <style data-emotion="css 1os8txe">
